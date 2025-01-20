@@ -226,6 +226,45 @@ h1 {
 
 }
 
+.left-arrow{
+    background-color: #FEA301;
+    border-radius: 50px;
+    width: 30px;
+    padding: 10px;
+
+}
+.left-arrow svg {
+    color: white;
+    max-width: 40px;
+    height: 25px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.arrow {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.right-arrow{
+    background-color: #FEA301;
+    border-radius: 50px;
+    width: 30px;
+    padding: 10px;
+
+}
+
+.right-arrow svg {
+    color: white;
+    max-width: 40px;
+    height: 25px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
 /* responsive style */
 
 @media screen and (max-width: 576px) {
@@ -244,7 +283,7 @@ h1 {
     }
    
 
-    .nav-menu,.btn-secondary,.logo-text  {
+    .nav-menu,.btn-secondary,.logo-text,.arrow   {
         display: none;
     }
     

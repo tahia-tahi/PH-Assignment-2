@@ -138,9 +138,17 @@ h1 {
 
 /* <!-- Standard Curriculum section --> */
 
-.curriculum-container {
-    max-width: 90%;
-    margin: 0 auto;
+main
+{
+    background-image: url(assets/bg.png);
+    background-repeat: repeat-y;
+    background-position: center top;
+    object-fit: cover;
+
+}
+
+.curriculum-container-background {
+    max-width: 100%;
     padding-top: 60px ;
     padding-bottom: 60px;
     background-image: url(assets/bg.png);
@@ -148,6 +156,8 @@ h1 {
     background-position: center top;
     object-fit: cover;
 }
+
+
 .section-title {
     font-size: 2rem;
     text-align: center;
@@ -264,7 +274,16 @@ h1 {
     font-weight: bold;
     margin: 0 auto;
 }
+/* our stories related style */
 
+.our-stories-background {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.153) 0%, rgb(247, 228, 197) 100%);
+    background-repeat: no-repeat;
+    background-position:  center bottom;
+    object-fit: cover;
+    height: 500px;
+  
+}
 
 /* footer related styles */
 
@@ -379,7 +398,7 @@ footer {
         font-size: 16px;
     }
 
-    .curriculum-container{
+    .main-curr-content{
         max-width: 100%;
     }
 

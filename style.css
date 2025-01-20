@@ -12,7 +12,7 @@
 .raleway-font {
   font-family: "Raleway", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -22,6 +22,10 @@ body {
     background-color: rgba(247, 247, 247, 1);
 }
 
+/* shared style */
+
+
+
 header {
     max-width: 90%;
     margin-left: auto ;
@@ -30,7 +34,6 @@ header {
 
 }
 
-/* header related style */
 
 nav {
     display: flex;
@@ -54,7 +57,7 @@ nav {
     justify-content: center;
     align-items: center;
     font-weight: 500;
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 .nav-menu li {
@@ -63,7 +66,7 @@ nav {
 
 .nav-menu li a {
     text-decoration: none;
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
 .nav-menu .menu-1 {
@@ -105,7 +108,7 @@ nav {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 
@@ -114,6 +117,11 @@ h1 {
 }
 .blue-heading {
     color: rgba(1, 172, 253, 1);
+}
+
+.hero-footer-text{
+    font-size:1rem;
+    font-weight: 400;
 }
 
 .hero-area {
@@ -126,6 +134,96 @@ h1 {
 .hero-image img {
     max-width: 100%;
         height: auto;
+}
+
+/* <!-- Standard Curriculum section --> */
+
+.curriculum-container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding-top: 60px ;
+    padding-bottom: 60px;
+    background-image: url(assets/bg.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    object-fit: cover;
+}
+.section-title {
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+
+}
+
+.curriculum-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.curriculum-child-1{
+    padding: 50px;
+    background: linear-gradient(180deg, rgba(222, 245, 255, 1) 10%, white 90%);
+    box-shadow: 0 0 28.3 .94 rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+    border: 1px solid rgba(222, 245, 255, 1);
+    text-align: center;
+  
+}
+
+.curriculum-child-1 button {
+    color: rgba(100, 200, 255, 1);
+    border: none;
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.curriculum-child-2{
+    padding: 50px;
+    background: linear-gradient(180deg, rgba(255, 244, 220, 1) 10%, white 90%);
+    box-shadow: 0 0 28.3 .94 rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+    border: 1px solid rgba(255, 244, 220, 1);
+    text-align: center;
+
+  
+}
+
+.curriculum-child-2 button {
+    color: rgba(240, 170, 0, 1);
+    border: none;
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: bold;
+}
+.curriculum-child-3{
+    padding: 50px;
+    background: linear-gradient(180deg, rgba(242, 232, 255, 1) 10%, white 90%);
+    box-shadow: 0 0 28.3 .94 rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+    border: 1px solid rgba(242, 232, 255, 1) ;
+    text-align: center;
+
+  
+}
+
+.curriculum-child-3 button {
+    color: rgba(135, 0, 255, 1);
+    border: none;
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.curriculum-text{
+    font-size:.625rem;
+    color: rgba(128, 128, 128, 1);
+    line-height: 20px;
+
 }
 
 /* responsive style */
@@ -153,6 +251,10 @@ h1 {
     .hero-area {
         flex-direction: column-reverse;
     }
+
+    h1 {
+        font-size: 2rem ;
+    }
    
     svg {
         max-width: 30px;
@@ -171,6 +273,16 @@ h1 {
         border-radius: 12px;
         font-weight: 500;
         font-size: 16px;
+    }
+
+    .curriculum-container{
+        max-width: 100%;
+    }
+
+    .curriculum-parent {
+        flex-direction: column;
+        padding: 0 15px;
+
     }
 
     

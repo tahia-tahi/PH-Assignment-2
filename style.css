@@ -138,21 +138,22 @@ h1 {
         height: auto;
 }
 
+.focused-line{
+    margin-top: 80px;
+    background-color: #01ACFD;
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
 /* <!-- Standard Curriculum section --> */
 
-main
-{
-    background-image: url(assets/bg.png);
-    background-repeat: repeat-y;
-    background-position: center top;
-    object-fit: cover;
 
-}
 
 .curriculum-container {
     max-width: 90%;
     margin: 0 auto;
-    padding-top: 60px ;
+    padding-top: 120px ;
     padding-bottom: 60px;
     background-image: url(assets/bg.png);
     background-repeat: no-repeat;
@@ -242,21 +243,6 @@ main
 
 }
 
-.left-arrow{
-    background-color: #FEA301;
-    border-radius: 50px;
-    width: 30px;
-    padding: 10px;
-
-}
-.left-arrow svg {
-    color: white;
-    max-width: 40px;
-    height: 25px;
-    font-weight: bold;
-    margin: 0 auto;
-}
-
 .arrow {
     margin-top: 80px;
     display: flex;
@@ -265,7 +251,8 @@ main
     gap: 15px;
 }
 
-.right-arrow{
+
+.right-arrow,.left-arrow{
     background-color: #FEA301;
     border-radius: 50px;
     width: 30px;
@@ -273,19 +260,32 @@ main
 
 }
 
-.right-arrow svg {
+.right-arrow svg,.left-arrow svg  {
     color: white;
     max-width: 40px;
     height: 25px;
     font-weight: bold;
     margin: 0 auto;
 }
+
+.left-arrow:hover,.right-arrow:hover {
+    background-color:#01ACFD;
+    border-radius: 50px;
+    width: 30px;
+    padding: 10px;
+
+}
+
+
+
+
+
 /* our stories related style */
 
 .our-stories-background {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.153) 0%, rgb(247, 228, 197) 100%);
-    background-repeat: no-repeat;
-    background-position:  center bottom;
+    background:url(assets/bg.png), linear-gradient(180deg, rgba(255, 255, 255, 0.153) 0%, rgb(247, 228, 197) 100%);
+    background-repeat: repeat-y;
+    background-position: center top center bottom;
     object-fit: cover;
   
 }
@@ -293,6 +293,7 @@ main
 .stories-max-width{
     max-width: 90%;
     margin: 0 auto;
+    padding-bottom: 100px;
 }
 
 .big-card-btn{
@@ -385,6 +386,11 @@ main
     background-color: white;
 }
 
+.stories-max-width .btn-div {
+    text-align: center;
+}
+
+
 /* footer related styles */
 
 footer {
@@ -473,6 +479,9 @@ footer {
     
     .hero-area {
         flex-direction: column-reverse;
+        border-top: 1px solid #FEA301;
+        margin-top: 10px;
+
     }
 
     h1 {
@@ -482,11 +491,7 @@ footer {
     svg {
         max-width: 30px;
     }
-    hr {
-        margin: 10px auto;
-        width: 100%;
-        color: #FEA301;
-    }
+   
 
     .btn-primary {
         color: white;
@@ -508,6 +513,10 @@ footer {
 
     }
 
+    .curriculum-container{
+        max-width: 95%;
+    }
+
     .small-card-btn{
         position: absolute;
         top: -10px;
@@ -522,7 +531,7 @@ footer {
 
     .small-card {
         width: 100%;
-        gap: 5px;
+        gap: 10px;
     }
 
     .small-card-child{
@@ -565,7 +574,7 @@ footer {
 }
 
 @media screen and (min-width:577px) and (max-width:1400px) {
-   header svg, hr {
+   header svg {
         display: none;
     }
 

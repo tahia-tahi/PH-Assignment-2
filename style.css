@@ -93,11 +93,29 @@ nav {
     font-weight: 500;
     font-size: 1.25rem;
 }
+.btn-secondary:hover {
+    color: white;
+    background-color: #01ACFD;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
 
 
 .btn-primary {
     color: white;
     background-color: rgba(17, 17, 17, 1);
+    padding: 10px 60px;
+    border: none;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.btn-primary:hover {
+    color: white;
+    background-color:#FEA301;
     padding: 10px 60px;
     border: none;
     border-radius: 12px;
@@ -188,12 +206,13 @@ h1 {
   
 }
 
-.curriculum-child-1 button {
+.curriculum-child-1 a {
     color: rgba(100, 200, 255, 1);
     border: none;
     background-color: transparent;
     font-size: 12px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .curriculum-child-2{
@@ -207,12 +226,13 @@ h1 {
   
 }
 
-.curriculum-child-2 button {
+.curriculum-child-2 a {
     color: rgba(240, 170, 0, 1);
     border: none;
     background-color: transparent;
     font-size: 12px;
     font-weight: bold;
+    text-decoration: none;
 }
 .curriculum-child-3{
     padding: 50px;
@@ -225,12 +245,13 @@ h1 {
   
 }
 
-.curriculum-child-3 button {
+.curriculum-child-3 a {
     color: rgba(135, 0, 255, 1);
     border: none;
     background-color: transparent;
     font-size: 12px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .curriculum-text{

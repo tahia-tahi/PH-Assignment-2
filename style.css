@@ -198,7 +198,7 @@ h1 {
 
 .curriculum-child-1{
     padding: 50px;
-    background: linear-gradient(180deg, rgba(222, 245, 255, 1) 10%, white 90%);
+    background: linear-gradient(180deg, rgba(222, 245, 255, 1) 10%, rgba(255, 255, 255, 0.544) 90%);
     box-shadow: 0 0 28.3 .94 rgba(0, 0, 0, 0.05);
     border-radius: 18px;
     border: 1px solid rgba(222, 245, 255, 1);

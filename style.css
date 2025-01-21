@@ -93,6 +93,7 @@ nav {
     font-weight: 500;
     font-size: 1.25rem;
 }
+
 .btn-secondary:hover {
     color: white;
     background-color: #01ACFD;
@@ -103,7 +104,6 @@ nav {
     font-size: 1.25rem;
 }
 
-
 .btn-primary {
     color: white;
     background-color: rgba(17, 17, 17, 1);
@@ -113,6 +113,7 @@ nav {
     font-weight: 500;
     font-size: 1.25rem;
 }
+
 .btn-primary:hover {
     color: white;
     background-color:#FEA301;
@@ -153,7 +154,7 @@ h1 {
 
 .hero-image img {
     max-width: 100%;
-        height: auto;
+    height: auto;
 }
 
 .focused-line{
@@ -358,7 +359,6 @@ h1 {
 .stories-container{
     display: flex;
     justify-content: center;
-
     gap: 18px;
     padding: 80px 0;
 }
@@ -388,7 +388,6 @@ h1 {
     width: 55%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2,1fr);
     gap: 18px;
 }
 
@@ -489,7 +488,6 @@ footer {
 
     .hero-content{
       max-width: 100%;
-      text-align: center;
 
     }
    
@@ -506,7 +504,7 @@ footer {
     }
 
     h1 {
-        font-size: 2rem ;
+        font-size: 2rem;
     }
    
     svg {
@@ -534,9 +532,9 @@ footer {
 
     }
 
-    .curriculum-container{
+    /* .curriculum-container{
         max-width: 95%;
-    }
+    } */
 
     .small-card-btn{
         position: absolute;

@@ -582,7 +582,7 @@ footer {
 
     footer {
         height: 500px;
-        /* padding-left: 15px; */
+        padding-left: 15px;
         padding-top: 50px;
         margin-top: -50px;
     }

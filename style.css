@@ -520,6 +520,16 @@ footer {
         font-weight: 500;
         font-size: 16px;
     }
+
+    .btn-primary:hover {
+        color: white;
+        background-color: #FEA301;
+        padding: 6px 24px;
+        border: none;
+        border-radius: 12px;
+        font-weight: 500;
+        font-size: 16px;
+    }
     .curriculum-parent  {
         flex-direction: column;
         padding: 0 5px;

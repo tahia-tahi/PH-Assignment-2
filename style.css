@@ -36,8 +36,8 @@ header {
 
 }
 
-
 nav {
+    padding-top: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,8 +45,8 @@ nav {
 
 .logo{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
 }
 
 .logo img {
@@ -147,7 +147,7 @@ h1 {
 
 .hero-area {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 50px;
 }
@@ -161,8 +161,8 @@ h1 {
     margin-top: 80px;
     background-color: #01ACFD;
     color: white;
-    font-weight: 600;
-    font-size: 1.5rem;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 /* <!-- Standard Curriculum section --> */
@@ -421,9 +421,9 @@ footer {
 }
 .footer-content{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 50px;
     max-width: 90%;
 }
 
@@ -434,6 +434,7 @@ footer {
 .footer-logo {
     display: flex;
     align-items: center;
+    margin-left: -10px;
 }
 
 .footer-heading {
@@ -488,6 +489,7 @@ footer {
 
     .hero-content{
       max-width: 100%;
+      text-align: center;
 
     }
    
@@ -500,6 +502,7 @@ footer {
         flex-direction: column-reverse;
         border-top: 1px solid #FEA301;
         margin-top: 10px;
+        /* padding: 0 50; */
 
     }
 
@@ -522,19 +525,20 @@ footer {
         font-size: 16px;
     }
 
-    .main-curr-content{
-        max-width: 100%;
-    }
 
     .curriculum-parent  {
         flex-direction: column;
-        padding: 0 15px;
+        padding: 0 5px;
 
     }
 
-    /* .curriculum-container{
-        max-width: 95%;
-    } */
+    .curriculum-container{
+        padding:50px 0 ;
+    }
+
+    .stories-container{
+        padding:20px 0;
+    }
 
     .small-card-btn{
         position: absolute;
@@ -554,25 +558,34 @@ footer {
     }
 
     .small-card-child{
-        border-radius: 5px;
+        border-radius:10px;
     }
 
 
 
     .small-card-child img  {
-        border-radius: 5px 5px 0 0;
+        border-radius: 10px 10px 0 0;
     }
     .small-card-child div {
-        padding: 5px;
+        padding: 13px;
     }
 
     .small-card-child div h4 {
-        font-size: 6px;
+        font-size: 10px;
+        line-height: 20px ;
     }
 
     .small-card-child div button {
         padding: 5px 10px;
         font-size: 6px;
+    }
+
+    footer {
+        height: 750px;
+        width: 450px;
+        padding-left: 15px;
+        padding-top: 50px;
+        margin-top: -50px;
     }
 
     .footer-content {
@@ -583,19 +596,11 @@ footer {
 
     .footer-text {
         width: 100%;
-    }
-
-
-
-   
-
-    
+    }   
 }
 
 @media screen and (min-width:577px) and (max-width:1400px) {
    header svg {
         display: none;
     }
-
-    
 }

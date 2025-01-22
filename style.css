@@ -168,15 +168,19 @@ h1 {
 
 
 
-.curriculum-container {
-    max-width: 90%;
-    margin: 0 auto;
-    padding-top: 120px ;
-    padding-bottom: 60px;
+.curriculum-bg {
     background-image: url(assets/bg.png);
     background-repeat: no-repeat;
     background-position: center top;
     object-fit: cover;
+}
+
+.curriculum-container{
+    max-width: 90%;
+    margin: 0 auto;
+    padding-top: 120px ;
+    padding-bottom: 60px;
+
 }
 
 
@@ -234,6 +238,7 @@ h1 {
     font-weight: bold;
     text-decoration: none;
 }
+
 .curriculum-child-3{
     padding: 50px;
     background: linear-gradient(180deg, rgba(242, 232, 255, 1) 10%, white 90%);
@@ -577,7 +582,7 @@ footer {
 
     footer {
         height: 500px;
-        padding-left: 15px;
+        /* padding-left: 15px; */
         padding-top: 50px;
         margin-top: -50px;
     }

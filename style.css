@@ -310,7 +310,7 @@ h1 {
 
 .our-stories-background {
     background:url(assets/bg.png), linear-gradient(180deg, rgba(255, 255, 255, 0.153) 0%, rgb(247, 228, 197) 100%);
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-position: center top center bottom;
     object-fit: cover;
   

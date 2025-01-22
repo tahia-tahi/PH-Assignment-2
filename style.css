@@ -9,9 +9,9 @@
 
 
 
-/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-.raleway-font {
+/* .raleway-font {
   font-family: "Raleway", serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -45,8 +45,7 @@ nav {
 
 .logo{
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
+
 }
 
 .logo img {
@@ -508,13 +507,10 @@ footer {
 
     h1 {
         font-size: 2rem;
-    }
-   
+    }  
     svg {
         max-width: 30px;
     }
-   
-
     .btn-primary {
         color: white;
         background-color: rgba(17, 17, 17, 1);
@@ -524,45 +520,34 @@ footer {
         font-weight: 500;
         font-size: 16px;
     }
-
-
     .curriculum-parent  {
         flex-direction: column;
         padding: 0 5px;
 
     }
-
     .curriculum-container{
         padding:50px 0 ;
     }
-
     .stories-container{
         padding:20px 0;
     }
-
     .small-card-btn{
         position: absolute;
         top: -10px;
         left: 10px;
     }
-
     .blue-btn {
         position: absolute;
         top: -10px;
         left: 10px;
     }
-
     .small-card {
         width: 100%;
         gap: 10px;
     }
-
     .small-card-child{
         border-radius:10px;
     }
-
-
-
     .small-card-child img  {
         border-radius: 10px 10px 0 0;
     }
@@ -581,8 +566,7 @@ footer {
     }
 
     footer {
-        height: 750px;
-        width: 450px;
+        height: 500px;
         padding-left: 15px;
         padding-top: 50px;
         margin-top: -50px;
